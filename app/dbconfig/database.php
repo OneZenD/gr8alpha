@@ -5,6 +5,7 @@ $database = getenv('DB_NAME', 'pig');
 $username = getenv('DB_USERNAME');
 $password = getenv('DB_PASSWORD');
 
+echo "<p> Monkey </p>";
 echo "<p>".$database."</p>";
 
 /* if ($mysqli->connect_errno) {
