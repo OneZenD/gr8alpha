@@ -1,9 +1,9 @@
 <?php
 
-$host = env('DB_HOST'),
-$database = env('DB_DATABASE'),
-$username = env('DB_USERNAME'),
-$password = env('DB_PASSWORD'),
+$host = env('DB_HOST');
+$database = env('DB_DATABASE');
+$username = env('DB_USERNAME');
+$password = env('DB_PASSWORD');
 
 $mysqli = new mysqli('host', 'username', 'password', 'database';
 if ($mysqli->connect_errno) {
