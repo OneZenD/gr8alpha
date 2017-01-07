@@ -1,7 +1,7 @@
 <?php
 
 $host = env('DB_HOST');
-$database = env('DB_DATABASE');
+$database = $_ENV['DB_HOST'];
 $username = env('DB_USERNAME');
 $password = env('DB_PASSWORD');
 
