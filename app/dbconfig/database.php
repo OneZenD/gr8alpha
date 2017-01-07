@@ -2,8 +2,8 @@
 
 $host = "198.199.86.251";
 $database = "forge";
-$username = "forge"
-$password = "TQQBa92Hb0hXZHcWxidz"
+$username = "forge";
+$password = "TQQBa92Hb0hXZHcWxidz";
 
 /* echo "<p> Monkey </p>";
 echo $database; */
