@@ -2,8 +2,8 @@
 
 $host = $_ENV['DB_HOST'];
 $database = $_ENV['DB_HOST'];
-$username = env('DB_USERNAME');
-$password = env('DB_PASSWORD');
+$username = _env('DB_USERNAME');
+$password = $_env('DB_PASSWORD');
 
 $mysqli = new mysqli('host', 'username', 'password', 'database');
 if ($mysqli->connect_errno) {
