@@ -1,14 +1,15 @@
 <?php
 
-$host = getenv('DB_HOST');
-$database = getenv('DB_NAME', 'pig');
-$username = getenv('DB_USERNAME');
-$password = getenv('DB_PASSWORD');
+$host = 198.199.86.251;
+$database = forge;
+$username = forge
+$password = TQQBa92Hb0hXZHcWxidz
 
-echo "<p> Monkey </p>";
-echo $database;
+/* echo "<p> Monkey </p>";
+echo $database; */
 
-/* if ($mysqli->connect_errno) {
+
+if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
@@ -16,5 +17,5 @@ if (!$mysqli->query("DROP TABLE IF EXISTS test") ||
     !$mysqli->query("CREATE TABLE test(id INT)") ||
     !$mysqli->query("INSERT INTO test(id) VALUES (1)")) {
     echo "Table creation failed: (" . $mysqli->errno . ") " . $mysqli->error;
-} */
+} 
 ?>
