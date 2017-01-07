@@ -22,7 +22,7 @@ VALUES ('John', 'Doe', 'john@example.com')";
 if (mysqli_query($mysqli, $sql)) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    echo "Error: " . $sql . "<br>" . mysqli_error($mysqli);
 }
 
 mysqli_close($mysqli);
