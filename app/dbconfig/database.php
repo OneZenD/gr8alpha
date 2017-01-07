@@ -19,13 +19,13 @@ if (!$mysqli->query("DROP TABLE IF EXISTS test") ||
 $sql = "INSERT INTO forge (firstname, lastname, email)
 VALUES ('John', 'Doe', 'john@example.com')";
 
-if (mysqli_query($conn, $sql)) {
+if (mysqli_query($mysqli, $sql)) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
-mysqli_close($conn);
+mysqli_close($mysqli);
 ?>
 
 ?>
