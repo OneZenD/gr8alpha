@@ -16,7 +16,7 @@ if (!$mysqli->query("DROP TABLE IF EXISTS test") ||
 } 
 
 
-$sql = "INSERT INTO forge (firstname, lastname, email)
+$sql = "INSERT INTO myguests (firstname, lastname, email)
 VALUES ('John', 'Doe', 'john@example.com')";
 
 if (mysqli_query($mysqli, $sql)) {
