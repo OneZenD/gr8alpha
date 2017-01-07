@@ -1,14 +1,14 @@
 <?php
 
-$host = 198.199.86.251;
-$database = forge;
-$username = forge
-$password = TQQBa92Hb0hXZHcWxidz
+$host = "198.199.86.251";
+$database = "forge";
+$username = "forge"
+$password = "TQQBa92Hb0hXZHcWxidz"
 
 /* echo "<p> Monkey </p>";
 echo $database; */
 
-
+$mysqli = new mysqli("example.com", "user", "password", "database");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
