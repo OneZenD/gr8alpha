@@ -2,7 +2,7 @@
 
 $host = $_ENV['DB_HOST'];
 $database = $_ENV['DB_HOST'];
-$username = _env('DB_USERNAME');
+$username = $_env('DB_USERNAME');
 $password = $_env('DB_PASSWORD');
 
 $mysqli = new mysqli('host', 'username', 'password', 'database');
